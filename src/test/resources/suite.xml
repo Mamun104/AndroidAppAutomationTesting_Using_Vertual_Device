@@ -1,0 +1,9 @@
+<suite thread-count="1" verbose="1" name="Android Calculator app Automation">
+
+    <test name="Calculator automation">
+        <classes>
+            <class name="testrunner.CalculatorTestRunner"/>
+        </classes>
+    </test>
+
+</suite>
