@@ -54,3 +54,50 @@
 
 - You will get the UUID number if device connected properly
 
+![Screenshot 2023-06-06 at 5 32 29 PM (2)](https://github.com/Mamun104/AndroidAppAutomationTesting_Using_Vertual_Device/assets/78067017/d16795b3-76c9-4969-9af5-60379a144ac1)
+
+- Now go to your Appium
+- Click on the search icon
+
+![image](https://github.com/Mamun104/AndroidAppAutomationTesting_Using_Vertual_Device/assets/78067017/3a2157eb-9771-4289-9fdc-1b89f8e71907)
+
+- Input following texts as desired capabilities on the text boxes
+
+![Screenshot 2023-06-06 at 5 43 20 PM](https://github.com/Mamun104/AndroidAppAutomationTesting_Using_Vertual_Device/assets/78067017/b8227922-583b-44fa-95cc-9862a919fe04)
+
+- Notice that we have already our appPackage and appActivity previously
+- On the right side, you will see a JSON body has been implemented automatically
+- Now save as the configuration named as “name”
+
+![image](https://github.com/Mamun104/AndroidAppAutomationTesting_Using_Vertual_Device/assets/78067017/571889b9-1673-4281-8f0e-8536624813ab)
+
+- You will find the saved configuration on “Saved Capability Sets”
+- Now Click on Start Session button
+- Now you can see the calculator app has been launched and showing on your Appium
+
+##  HOW TO RUN THIS PROJECT
+
+- clone the project
+
+- Start the appium server
+
+- Connect mobile device with USB
+
+- Set the debug mode on from mobile device
+
+- Allow connection from phone
+
+- Make sure the phone is unlocked
+
+- Open build.gradle as project by intellIJ
+
+-  give this command:
+
+            gradle clean test
+            
+
+## Output
+
+![a2](https://github.com/Mamun104/Android_AppAutomationTesting/assets/78067017/4eb5d330-36bb-4327-a97b-9d1e75527942)
+![allure](https://github.com/Mamun104/Android_AppAutomationTesting/assets/78067017/3d508120-31a3-4f25-831e-454508c839ae)
+
