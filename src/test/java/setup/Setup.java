@@ -22,7 +22,7 @@ public class Setup {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("deviceName", "My Device");
         cap.setCapability("platformName", "Android");
-        cap.setCapability("uuid", "YOF031010588");
+        cap.setCapability("uuid", "emulator-5554");
         cap.setCapability("appPackage", "com.google.android.calculator");
         cap.setCapability("appActivity", "com.android.calculator2.Calculator");
         cap.setCapability("app", System.getProperty("user.dir")+"/src/test/resources/Calculator.apk");

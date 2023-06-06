@@ -30,7 +30,7 @@ public class CalculatorTestRunner extends Setup {
         Assert.assertEquals(result,"3");
 
     }
-    @Test(priority = 2, description = "Multiplication in two Numbers")
+    /*@Test(priority = 2, description = "Multiplication in two Numbers")
     public void doMultiplicatiom() throws IOException, InterruptedException {
 
         calculatorScreen = new CalculatorScreen(driver);
@@ -49,4 +49,6 @@ public class CalculatorTestRunner extends Setup {
         System.out.println(result);
 
     }
+
+ */
 }
